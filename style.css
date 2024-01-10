@@ -63,7 +63,21 @@ body {
 
 
 /*fotos*/
+.acamp2020 {
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.img {
+   display: flex;
+   flex-wrap:wrap;
+}
+.img img {
+   height: 200px;
+   padding: 2px;
 
+}
 
 /*regras e horarios*/
 .rh {
