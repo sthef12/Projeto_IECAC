@@ -34,6 +34,7 @@ body {
 }
  main {
     flex: 1 1 0;
+   background-image: linear-gradient(var(--color-neutral-71), var(--color-neutral-90));
  }
 /*header*/
  .cabecalho {
@@ -46,7 +47,7 @@ body {
     align-items: center;
  }
  .cabecalho h3 {
-    color: var(--color-neutral-gold);
+    color: var(--color-neutral-90);
  }
  .cabecalho ul {
     display: flex;
@@ -68,28 +69,50 @@ body {
    display: flex;
    flex-direction: column;
    gap: 10px;
+   
 }
-.img {
+.acamp2020 .img {
    display: flex;
    flex-wrap:wrap;
+   
 }
-.img img {
+.acamp2020 .img img {
    height: 200px;
    padding: 2px;
-
+   border-radius: 20px;
 }
+
+.acamp2023{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.acamp2023 .img {
+   display: flex;
+   flex-wrap:wrap;
+   
+}
+.acamp2023 .img img{
+   height: 200px;
+   padding: 2px;
+   border-radius: 20px;
+}
+.acamp2023 .img video {
+   border-radius: 20px;
+}
+
 
 /*regras e horarios*/
 .rh {
    display: flex;
    flex-direction: column;
-   text-align: center;
-   align-items: center;
-   background-color: var(--color-neutral-30);
+   padding: 20px;
 }
 .rh .info {
    display: flex;
    flex-direction: column;
+   text-align: start;
 }
 
 .rh .info .regras {
@@ -117,6 +140,51 @@ body {
 }
 
 /*atividades*/
+.ativi {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   
+}
+.ativi h3 {
+   padding: 5px;
+}
+
+.gincana {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   gap: 20px;
+}
+.gincana h3 {
+   color: var(--color-neutral-0);
+   text-align: start;
+}
+.gincana p {
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   gap: 20px;
+   padding-left: 10px;
+}
+
+.estudo {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   gap: 20px;
+}
+.estudo h3 {
+   color: var(--color-neutral-0);
+   text-align: start;
+}
+.estudo p {
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   gap: 20px;
+   padding-left: 10px;
+}
 
 /*footer*/
  .rodape {
@@ -142,6 +210,8 @@ body {
 
  .rodape .info {
    display: flex;
+   background-color: var(--color-neutral-00);
+   color: var(--color-neutral-40);
 }
 
 .rodape .info .regras {
